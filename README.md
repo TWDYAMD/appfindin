@@ -1,16 +1,37 @@
-# proyecto_final0
 
-A new Flutter project.
+#FinDin - Finanzas Personales
 
-## Getting Started
+**FinDin** es una aplicación de finanzas personales desarrollada con **Flutter**. Permite a los usuarios llevar el control de sus ingresos y egresos, visualizando un historial detallado por usuario, y calculando su balance total.
 
-This project is a starting point for a Flutter application.
+Utiliza **Hive** como base de datos local para guardar usuarios y transacciones, permitiendo que la aplicación funcione sin conexión a internet y sea compatible con dispositivos móviles y Web.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##Características principales
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Registro e inicio de sesión de usuarios con almacenamiento local (Hive).
+- Historial personalizado de ingresos y egresos por usuario.
+- Cálculo automático del total de ingresos y egresos.
+- Pantalla de bienvenida con navegación.
+
+---
+
+##Requisitos
+
+Antes de correr este proyecto necesitas tener:
+
+- Flutter instalado.
+- Dart SDK
+- Hive y Hive Flutter
+
+---
+
+##Cómo correr el proyecto
+
+1. **Clona este repositorio**
+   git clone https://github.com/TWDYAMD/appfindin
+
+2.**Instala las dependencias**
+      flutter pub get
+
+3.**Corre la aplicación**
